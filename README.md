@@ -7,3 +7,5 @@ http://f0831387.xsph.ru/?page_id=26
 
 Ссылка на требования к форме авторизации и чек-лист для тестирования: 
 https://docs.google.com/spreadsheets/d/1ZFuXBAYvowmer-GuVwLIVJBaQzE_umfcW-kP8FamS2M/edit?usp=sharing
+
+Команды для прогона тестов: npm test, npm test-html-report или npm test-json-report
