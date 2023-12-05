@@ -5,7 +5,7 @@ test.describe('AuthFormTesting_General', () => {
 
     test.beforeEach(async({ page }) => {
         await selectors.setTestIdAttribute('id');
-        await page.goto('http://f0831387.xsph.ru/?page_id=26');
+        await page.goto('http://f0893038.xsph.ru/?page_id=2');
     });
 
     test('Страница имеет Title "Authorization Form"', async({ page }) => {
@@ -144,7 +144,7 @@ test.describe('AuthFormTesting_Login-1', () => {
 
     test.beforeEach(async({ page }) => {
         await selectors.setTestIdAttribute('id');
-        await page.goto('http://f0831387.xsph.ru/?page_id=26');
+        await page.goto('http://f0893038.xsph.ru/?page_id=2');
     });
 
     test('При наведении на поле "Логин" появляется подсказка "от 3 до 30 символов"', async({ page }) => {
@@ -166,7 +166,7 @@ test.describe('AuthFormTesting_Login-2', () => {
 
     test.beforeEach(async({ page }) => {
         await selectors.setTestIdAttribute('id');
-        await page.goto('http://f0831387.xsph.ru/?page_id=26');
+        await page.goto('http://f0893038.xsph.ru/?page_id=2');
         await page.getByTestId('1c2c22').fill('TestPass_1');
         await page.getByTestId('1c2c32').fill('test._1@test_1.com');
     });
@@ -241,7 +241,7 @@ test.describe('AuthFormTesting_Password-1', () => {
 
     test.beforeEach(async({ page }) => {
         await selectors.setTestIdAttribute('id');
-        await page.goto('http://f0831387.xsph.ru/?page_id=26');
+        await page.goto('http://f0893038.xsph.ru/?page_id=2');
     });
 
     test('При наведении на поле "Пароль" появляется подсказка "от 6 до 40 символов"', async({ page }) => {
@@ -267,7 +267,7 @@ test.describe('AuthFormTesting_Password-2', () => {
 
     test.beforeEach(async({ page }) => {
         await selectors.setTestIdAttribute('id');
-        await page.goto('http://f0831387.xsph.ru/?page_id=26');
+        await page.goto('http://f0893038.xsph.ru/?page_id=2');
         await page.getByTestId('1c2c12').fill('TestName_1');
         await page.getByTestId('1c2c32').fill('test._1@test_1.com');
     });
@@ -342,7 +342,7 @@ test.describe('AuthFormTesting_Email-1', () => {
 
     test.beforeEach(async({ page }) => {
         await selectors.setTestIdAttribute('id');
-        await page.goto('http://f0831387.xsph.ru/?page_id=26');
+        await page.goto('http://f0893038.xsph.ru/?page_id=2');
     });
 
     test('При наведении на поле "Электронная почта" появляется подсказка "от 8 до 100 символов"', async({ page }) => {
@@ -364,7 +364,7 @@ test.describe('AuthFormTesting_Email-2', () => {
 
     test.beforeEach(async({ page }) => {
         await selectors.setTestIdAttribute('id');
-        await page.goto('http://f0831387.xsph.ru/?page_id=26');
+        await page.goto('http://f0893038.xsph.ru/?page_id=2');
         await page.getByTestId('1c2c12').fill('TestName_1');
         await page.getByTestId('1c2c22').fill('TestPass_1');
     });
